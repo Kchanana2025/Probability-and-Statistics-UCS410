@@ -1,8 +1,11 @@
 #Q1
 n=23#no of persons whos birthday are supposed to be on same day
 prod=1
+
+#prod gives the probability of n persons have birthday on different days
 for(i in 1:(n-1))
   prod=prod*(1-i/365)
+#prob gives the probability of n persons have birthday on same days
 prob=1-prod
 print(prob)
 
