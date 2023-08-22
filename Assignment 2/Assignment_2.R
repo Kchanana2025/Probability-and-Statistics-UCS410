@@ -87,8 +87,7 @@ lapply(data[,1:4],var)
 summary(iris)
 
 
-#Q5you cant use median mean to do this swal
-#mtlb bina uske bhi krna aana chahie
+
 
 
 
