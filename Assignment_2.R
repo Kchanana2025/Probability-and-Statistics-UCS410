@@ -76,6 +76,16 @@ quantile(data$Sepal.Length,0.25)#0.25 is for first quartile ,0.5 for second,0.75
 #waise we are calculating quartile but is named quantile here
 quantile(data$Sepal.Length,0.75)
 IQR(data$Sepal.Length)
+sd(data$Sepal.Length)#standard deviation
+var(data$Sepal.Length)#variance
+lapply(data[,1:4],range)
+lapply(data[,1:4],mean)
+lapply(data[,1:4],median)
+lapply(data[,1:4],IQR)
+lapply(data[,1:4],sd)
+lapply(data[,1:4],var)
+summary(iris)
+
 
 #Q5you cant use median mean to do this swal
 #mtlb bina uske bhi krna aana chahie
