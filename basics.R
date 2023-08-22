@@ -6,3 +6,4 @@ vec1<-1:19 # initialization vector with integers 1 to 19
 vect1[17] #wrong statement vect 1 is not declared
 vec1[17] # 17 is printed on console
 vec1[19] #17 is printed on console
+
