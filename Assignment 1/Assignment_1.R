@@ -61,7 +61,7 @@ if(n<=0)
       }
     }
   }
-#Q4
+
 
 #Q4 calculator
 d=as.integer(readline(prompt="which operation do you wish to perform \n 1.ADD \n 2.SUBTRACT \n 3.MULTIPLY \n 4. DIVIDE"))
@@ -101,6 +101,14 @@ plot(x,y,type="l",col="red",lwd=2,main="My Graph",xlab="X-axis",ylab="Y-axis",lt
 #ylab="Y-axis": This argument sets the label for the Y-axis.
 
 #lty=6: This argument sets the line type for the plot. A value of 6 corresponds to a dashed line.
+
+
+hist(fibo)
+
+x<-c(1,2,3,4)
+y<-c(2,7,4,9)
+plot(x,y,type="l")
+
 
 
 
