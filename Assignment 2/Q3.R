@@ -9,6 +9,14 @@ pr<-0.2
 pcr<-0.85
 prob<-calc(pc,pr,pcr)
 print(prob)
+#or
+pc=0.4
+pr=0.2
+pcr=0.85
+prc=pcr*pr/pc;
+print(prc)
+
+#some extra things:-
 
 #lets send these values through values of vector
 calc<-function(pc,pr,pcr)
